@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(img/WhatsApp\ Image\ 2024-03-09\ at\ 11.18.15\ PM.jpeg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-attachment: fixed;
+}
+header{
+    height: 10.9vh;
+    width: 98.8vw;
+    background-image: linear-gradient(to left, black 30%, transparent);
+    display: flex;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+nav{
+    display: flex;
+}
+nav ul li{
+    padding: 0 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 550;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.name{
+    font-weight: 500;
+    font-size: 120px;
+    padding: 0;
+    margin: 0;
+}
+.back{
+    width: 98.9vw;
+    height: 120vh;
+    background-image: linear-gradient(to left, black 30%,transparent);
+    display: flex;
+    justify-content: flex-end;
+    background-attachment: fixed;
+    /* background-color: black; */
+}
+.des{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    color: #a9a3a3;
+    /* background-color: red; */
+    text-align: center;
+    margin-right: 20px;
+}
+.tag{
+    font-size: x-large;
+    font-family: 'Lato',sans-serif;
+}
+#about{
+    width: 50vw;
+    height: 54vh;
+    margin-right: 18px;
+    padding: 20px;
+    background-color: #ffffff35;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    font-family: 'Lato',sans-serif;
+    font-size: x-large;
+}
+button{
+    position: absolute;
+    width: 240px;
+    height: 66px;
+    border-radius: 14px;
+    top: 120%;
+    right: 0;
+    margin-right: 40px;
+    background-color: #fff78a95;
+    font-family: 'Lato', sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 800px){
+    header{
+        background-color: black;
+        width: 155vw;
+        height: 16vh;
+    }
+    nav ul li a{
+        color: white;
+        font-weight: 400;
+        padding: 0px 14px;
+        font-size: 35px;
+    }
+    .back {
+        width: 154.9vw;
+        height: 370vw;
+    }
+    #about {
+        width: 115vw;
+        height: 108vh;
+    }
+    button{
+        top: 175%;
+    }
+    .des{
+        background-color: #00000066;
+        border-radius: 6%;
+        margin-top: 20px;
+        padding: 10px;
+    }
+}

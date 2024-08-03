@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to left, black 50%, transparent);
+    background-attachment: fixed;
+}
+header{
+    height: 10.9vh;
+    width: 98.8vw;
+    background-image: linear-gradient(to left, black 30%, transparent);
+    display: flex;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+}
+nav{
+    display: flex;
+}
+nav ul li{
+    padding: 0 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 550;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.pic{
+    border-radius: 50%;
+    position: absolute;
+    left: 4rem;
+    top: 6rem;
+}
+.name{
+    font-family: 'Lato',sans-serif;
+    font-size: xxx-large;
+    font-weight: 700; 
+    position: absolute;
+    left: 3rem;
+    top: 22rem;
+}
+.edu{
+    font-family: 'Lato',sans-serif;
+    position: absolute;
+    left: 3rem;
+    top: 26rem;
+    font-size: x-large;
+}
+.exp{
+    font-family: 'Lato',sans-serif;
+    position: absolute;
+    width: 21rem;
+    right: 8rem;
+    top: 13rem;
+    font-size: xxx-large;
+    color:aliceblue;
+}
+.sub{
+    font-family: 'Lato',sans-serif;
+    position: absolute;
+    width: 21rem;
+    left: 3rem;
+    top: 31rem;
+    font-size: xxx-large;
+}
+.addr{
+    font-family: 'Lato',sans-serif;
+    position: absolute;
+    left: 4rem;
+    top: 40rem;
+    font-size: xx-large;
+}
+    @media screen and (max-width: 800px){
+        body{
+           background-color: black;
+        }
+        .pic {
+            border-radius: 50%;
+            height: 120px;
+            position: absolute;
+            left: 2rem;
+            top: 6rem;
+        }
+        .name {
+            font-family: 'Lato', sans-serif;
+            font-size: xx-large;
+            font-weight: 700;
+            position: absolute;
+            left: 1rem;
+            top: 14rem;
+            color:aliceblue;
+        }
+        .edu {
+            font-family: 'Lato', sans-serif;
+            position: absolute;
+            left: 1rem;
+            top: 17rem;
+            font-size: large;
+            color:aliceblue;
+        }
+        .exp {
+            font-family: 'Lato', sans-serif;
+            position: absolute;
+            width: 17rem;
+            left: 1rem;
+            top: 30rem;
+            font-size: x-large;
+            color: aliceblue;
+            background-color: rgb(46, 43, 43);
+        }
+            nav ul li a{
+                color:aliceblue;
+            }
+        .sub{
+            color: aliceblue;
+            position: absolute;
+            width: 15rem;
+            left: 1rem;
+            top: 24rem;
+            font-size: x-large;
+        }
+        .addr{
+            color: aliceblue;
+            position: absolute;
+            left: 1rem;
+            top: 21rem;
+            font-size: large;
+        }
+}

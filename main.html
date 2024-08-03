@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maestro</title>
+    <link rel="shortcut icon" href="img/favicon_io (2)/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="near.html">Faculties Near Me </a></li>
+            </ul>
+            <input id="searchbar"
+               onkeyup="search_teachers()"
+               type="text" name="search"
+               placeholder="   teachers, subject or location"><img src="img/search.svg" alt="srch" id="srch">
+        </nav>
+        <div class="loc"><img src="img/location-pin-svgrepo-com.svg" alt="loc">Jadavpur, Kolkata</div>
+    </header>
+    <div class="back">
+        <a href="rita.html"><div class="teacher" id="a">
+           <span class="nme">Rita Chatarjee</span><br>
+           <span class="sbj">Accountancy(11-12 & B.Com.)</span><br>
+           <div class="rat">
+            <progress id="Accountancy" max="5" value="4.8"></progress> 4.8⭐
+           </div><br>
+           <span class="addr">Hatibagan, Kolkata</span>
+           <a href="tel:1234567890"><button class="call" >Call Now</button></a>
+
+        </div></a>
+        <a href="sangram.html"><div class="teacher" id="b">
+            <span class="nme">Sangram Paul</span><br>
+            <span class="sbj">History(B.A. Hons.)</span><br>
+            <div class="rat">
+                <progress id="History" max="5" value="3.5"></progress> 3.5⭐
+            </div><br>
+            <span class="addr">Barrackpore, 24Parganas(N)</span><br>
+            <a href="tel:1234567890"><button class="call" >Call Now</button></a>
+        </div></a>
+        <a href="mou.html"><div class="teacher" id="c">
+            <span class="nme">MD Moudud Khan</span><br>
+            <span class="sbj">Chemistry(11-12 & JEE)</span><br>
+            <div class="rat">
+                <progress id="Chemistry" max="5" value="4.1"></progress> 4.1⭐
+            </div><br>
+            <span class="addr">Jadavpur, Kolkata</span>
+            <a href="tel:7439332808"><button class="call" >Call Now</button></a>
+        </div></a>
+        <div class="teacher" id="d">
+            <span class="nme">Ritam Khanra</span><br>
+            <span class="sbj">English(class 7-12)</span><br>
+            <div class="rat">
+                <progress id="English" max="5" value="3.7"></progress> 3.7⭐
+            </div><br>
+            <span class="addr">Howrah Maidan, Howrah</span><br>
+            <a href="tel:1234567890"><button class="call" >Call Now</button></a>
+        </div>
+        <div class="teacher" id="e">
+            <span class="nme">Sangita Mondal</span><br>
+            <span class="sbj">Math(class 9-12)</span><br>
+            <div class="rat">
+                <progress id="Math" max="5" value="3.9"></progress> 3.9⭐
+            </div><br>
+            <span class="addr">College Street, Kolkata</span><br>
+            <a href="tel:1234567890"><button class="call" >Call Now</button></a>
+        </div>
+        <div class="teacher" id="f">
+            <span class="nme">Dhiman Patra</span><br>
+            <span class="sbj">Physics(JEE & NEET)</span><br>
+            <div class="rat">
+                <progress id="Physics" max="5" value="4.3"></progress> 4.3⭐
+            </div><br>
+            <span class="addr">Dumdum, Kolkata</span><br>
+            <a href="tel:1234567890"><button class="call" >Call Now</button></a>
+        </div>
+        <div class="teacher" id="g">
+            <span class="nme">Srilekha Gupta</span><br>
+            <span class="sbj">Biology(class 11-12 & NEET)</span><br>
+            <div class="rat">
+                <progress id="Biology" max="5" value="4.8"></progress> 4.8⭐
+            </div><br>
+            <span class="addr">Hazra, Kolkata</span><br>
+            <a href="tel:1234567890"><button class="call" >Call Now</button></a>
+        </div>
+        <div class="teacher" id="h">
+            <span class="nme">Souvik Biswas</span><br>
+            <span class="sbj">Bengali(7-12)</span><br>
+            <div class="rat">
+                <progress id="Bengali" max="5" value="4.0"></progress> 4.0⭐
+            </div><br>
+            <span class="addr">Ultadanga, Kolkata</span><br>
+            <a href="tel:1234567890"><button class="call" >Call Now</button></a>
+        </div>
+        <div class="teacher" id="i">
+            <span class="nme">Deeptaman Banerjee</span><br>
+            <span class="sbj">Philosophy(B.A.)</span><br>
+            <div class="rat">
+                <progress id="Philosophy" max="5" value="4.2"></progress> 4.2⭐
+            </div><br>
+            <span class="addr">College Street, Kolkata</span><br>
+            <a href="tel:1234567890"><button class="call" >Call Now</button></a>
+        </div>
+        <div class="teacher" id="c">
+            <span class="nme">Sk Najir</span><br>
+            <span class="sbj">Chemistry(11-12 & JEE)</span><br>
+            <div class="rat">
+                <progress id="Chemistry" max="5" value="3.6"></progress> 4.1⭐
+            </div><br>
+            <span class="addr">Jadavpur, Kolkata</span>
+            <a href="tel:1234567890"><button class="call" >Call Now</button></a>
+        </div>
+        <div class="teacher" id="c">
+            <span class="nme">Bikash Saha</span><br>
+            <span class="sbj">Math(class 9-12,JEE)</span><br>
+            <div class="rat">
+                <progress id="Chemistry" max="5" value="3.1"></progress> 3.1⭐
+            </div><br>
+            <span class="addr">Kharda , 24 24Parganas(N)</span>
+            <a href="tel:1234567890"><button class="call" >Call Now</button></a>
+        </div>
+        <div class="teacher" id="c">
+            <span class="nme">Arundhuti Banrjee</span><br>
+            <span class="sbj">Biology(Class-11-12)</span><br>
+            <div class="rat">
+                <progress id="Chemistry" max="5" value="3.7"></progress> 3.7⭐
+            </div><br>
+            <span class="addr">Dasnagar, Howrah</span><br>
+            <a href="tel:1234567890"><button class="call" >Call Now</button></a>
+        </div>
+        <div class="teacher" id="c">
+            <span class="nme">Samarjit Haldar</span><br>
+            <span class="sbj">English</span><br>
+            <div class="rat">
+                <progress id="Chemistry" max="5" value="2.9"></progress> 2.9⭐
+            </div><br>
+            <span class="addr">Barrackpore, 24Parganas(N)</span><br>
+            <a href="tel:1234567890"><button class="call" >Call Now</button></a>
+        </div>
+        <div class="teacher" id="c">
+            <span class="nme">Shibham Pharikal</span><br>
+            <span class="sbj">Political Science</span><br>
+            <div class="rat">
+                <progress id="Chemistry" max="5" value="3.7"></progress> 3.7⭐
+            </div><br>
+            <span class="addr">Belgharia, Kolkata</span><br>
+            <a href="tel:1234567890"><button class="call" >Call Now</button></a>
+        </div>
+        <div class="teacher" id="c">
+            <span class="nme">Shintu Bhadra</span><br>
+            <span class="sbj">Computer(Class-11-12)</span><br>
+            <div class="rat">
+                <progress id="Chemistry" max="5" value="4"></progress> 4.0⭐
+            </div><br>
+            <span class="addr">Kalyani, Nadia</span><br>
+            <a href="tel:1234567890"><button class="call" >Call Now</button></a>
+        </div>
+    </div>
+    <script src="search.js"></script>
+</body>
+</html>

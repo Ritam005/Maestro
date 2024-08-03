@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon_io (2)/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <title>Maestro</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="near.html">Faculties Near Me </a></li>
+            </ul>
+            <input id="searchbar"
+               onkeyup="search_teachers()"
+               type="text" name="search"
+               placeholder="   teachers, subject or location"><img src="img/search.svg" alt="srch" id="srch">
+        </nav>
+        <div class="loc"><img src="img/location-pin-svgrepo-com.svg" alt="loc">Jadavpur, Kolkata</div>
+    </header>
+    <div class="back">
+        <a href="mou.html"><div class="teacher" id="c">
+            <span class="nme">MD Moudud Khan</span><br>
+            <span class="sbj">Chemistry(11-12 & JEE)</span><br>
+            <div class="rat">
+                <progress id="Chemistry" max="5" value="4.1"></progress> 4.1⭐
+            </div><br>
+            <span class="addr">Jadavpur, Kolkata</span>
+            <a href="tel:7439332808"><button class="call" >Call Now</button></a>
+        </div></a>
+        <div class="teacher" id="c">
+            <span class="nme">Sk Najir</span><br>
+            <span class="sbj">Chemistry(11-12 & JEE)</span><br>
+            <div class="rat">
+                <progress id="Chemistry" max="5" value="3.6"></progress> 4.1⭐
+            </div><br>
+            <span class="addr">Jadavpur, Kolkata</span>
+            <a href="tel:1234567890"><button class="call" >Call Now</button></a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(img/WhatsApp\ Image\ 2024-03-09\ at\ 11.18.15\ PM.jpeg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+header{
+    height: 10.9vh;
+    width: 98.8vw;
+    background-image: linear-gradient(to left, black 30%, transparent);
+    display: flex;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+nav{
+    display: flex;
+}
+nav ul li{
+    padding: 0 20px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 550;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.name{
+    font-weight: 500;
+    font-size: 120px;
+    padding: 0;
+    margin: 0;
+}
+.back{
+    width: 98.9vw;
+    height: 100vh;
+    background-image: linear-gradient(to left, black 30%,transparent);
+    display: flex;
+    justify-content: end;
+    /* background-color: black; */
+}
+.des{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    color: #a9a3a3;
+    /* background-color: red; */
+    text-align: center;
+    margin-right: 20px;
+}
+.tag{
+    font-size: x-large;
+    font-family: 'Lato',sans-serif;
+}
+.log{
+    position: absolute;
+    top: 46%;
+    right: 9%;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+.log input{
+    margin: 16px 0px;
+    background-color: transparent;
+    color: #fff;
+    border: 0;
+    border-bottom: 2px solid white ;
+    width: 280px;
+    height: 30px;
+}
+::placeholder{
+    color: #fff;
+    opacity: 1;
+}
+button{
+    width: 140px;
+    height: 40px;
+    position: relative;
+    left: 25%;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-size: larger;
+    font-family: 'Lato',sans-serif;
+}
+@media screen and (max-width: 800px){
+    .des{
+        margin-top: 10px;
+        background-color: #00000066;
+        border-radius: 6%;
+        padding: 10px;
+    }
+    .name{
+        font-size: 80px;
+    }
+    .back{
+        width: 100vw;
+    }
+    header{
+        width: 100vw;
+    }
+    h1{
+        color: black;
+    }
+    ::placeholder{
+        color: black;
+    }
+}
